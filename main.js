@@ -6,7 +6,8 @@ class Fibonacci{
 
 //current
 current(){
-  this.arr[this.iterator];
+  return this.arr[this.iterator];
+
 }
 
   //next element
@@ -35,7 +36,7 @@ key() {
 
 //prev returns previous number
 prev(){
-if(this.iterator > o) {
+if(this.iterator > 0) {
   --this.iterator;
   return this.arr[this.iterator];
 }
